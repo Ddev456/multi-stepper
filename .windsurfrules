@@ -1,0 +1,45 @@
+# [Project Name]
+Every time you choose to apply a rule(s), explicitly state the rule(s) in the output. You can abbreviate the rule description to a single word or phrase.
+
+## Project Context
+This project is a garden planner assistant. Cf to "./project-spec.md" for more information.
+
+## Code Style and Structure
+- Write concise, technical TypeScript code with accurate examples
+- Use functional and declarative programming patterns; avoid classes
+- Prefer iteration and modularization over code duplication
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError)
+- Structure repository files as follows:
+
+## Tech Stack
+- React
+- TypeScript
+- React hook form
+- Shadcn UI
+- Next.js
+- Framer motion (library)
+
+## Naming Conventions
+- Use lowercase with dashes for directories (e.g., components/form-wizard)
+- Favor named exports for components and utilities
+- Use PascalCase for component files (e.g., VisaForm.tsx)
+- Use camelCase for utility files (e.g., formValidator.ts)
+
+## TypeScript Usage
+- Use TypeScript for all code; prefer interfaces over types
+- Avoid enums; use const objects with 'as const' assertion
+- Use functional components with TypeScript interfaces
+- Define strict types for message passing between different parts of the extension
+- Use absolute imports for all files @/...
+- Avoid try/catch blocks unless there's good reason to translate or handle error in that abstraction
+- Use explicit return types for all functions
+
+## Development Workflow
+- Use proper version control
+- Implement proper code review process
+- Test in multiple environments
+- Follow semantic versioning for releases
+- Maintain changelog
+
+# Windsurf Specific
+- Automatically suggest additions for .windsurfrules file where best practices are used in the project

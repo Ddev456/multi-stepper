@@ -1,0 +1,14 @@
+☐ UI
+☐ Toast notification
+☐ Progress bar
+☐ create a new config (config step)
+☐ checkbox card for config selection (config step)
+☐ rework header stepper (icon or image for each step) + title only for active step + responsive
+☐ checkbox card for garden and zones selection
+☐ create a new garden (garden step)
+☐ create a new zone (zone step)
+# Selection Step:
+    ☐ rework selection component
+    ☐ rework plant delete button
+    ☐ why start date ?
+    ☐ no quantity but a button for each aditionnal culture
